@@ -14,7 +14,7 @@
         <div class="col-md-9">
             <div class="card">
                 <div class="card-header">
-                    <h4>Dashboard - My Local Movies</h4>
+                    <h4>Local Movies Charity Shop</h4>
                 </div>
 
                 <div class="card-body">

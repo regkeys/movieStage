@@ -9,7 +9,7 @@
         @endif
         <div>
             <ul>
-               <a class="dropdown-item" href="/DASHBOARD">Dashboard</a>
+               <a class="dropdown-item" href="/DASHBOARD">Local Movies</a>
                 <hr>
 
                 <!-- Calling the GATE for manage-users - will show if admin of viewOnlyAdmin - see gate in AuthServiceProvider.php-->
