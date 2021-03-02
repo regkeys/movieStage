@@ -18,16 +18,18 @@ class MovieInfoSeeder extends Seeder
     {
         //
         DB::table('uploads')->insert([
+            'id' => '20',
             'name' => 'John Doe',
             'title' => 'Iron Man',
             'length' => '1 hr',
             'start' => '7:00 pm',
-            'description' => 'This is a great movie.',
+            'description' => 'This is a great movie',
             'tickets' => '20',
             'rating' => '3',
             'poster' => '',
-            'timestamps' => now(),
-            'interger' => '3'
+            'created_at' => now(),
+            'updated_at' => now(),
+            'user_id' => '3'
         ]);
     }
 }
