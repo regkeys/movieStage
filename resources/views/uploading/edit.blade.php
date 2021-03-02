@@ -13,7 +13,7 @@
         <div class="col-md-9">
             <div class="card">
                 <div class="card-header">
-                    <h4>Dashboard - movieStage2 Edit Movie Package</h4>
+                    <h4>Dashboard - Edit Movie Package</h4>
                 </div>
 
                 <div class="card-body">
