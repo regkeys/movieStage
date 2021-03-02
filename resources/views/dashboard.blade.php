@@ -14,11 +14,7 @@
         <div class="col-md-9">
             <div class="card">
                 <div class="card-header">
-                    @if( Auth::user()->id == 2)
-                        <h4>Administative Dashboard</h4>
-                    @else
-                        <h4>Dashboard - My Local Movies</h4>
-                    @endif
+                    <h4>Dashboard - My Local Movies</h4>
                 </div>
 
                 <div class="card-body">
