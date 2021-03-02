@@ -19,7 +19,7 @@ class CreateUploadsTable extends Migration
             $table->string('title', 100);
             $table->string('length', 191);
             $table->string('start', 191);
-            $table->string('description', 191);
+            $table->longText('description');
             $table->string('tickets', 191);
             $table->string('rating', 191);
             $table->string('poster', 191);
