@@ -18,6 +18,7 @@ class AuthServiceProvider extends ServiceProvider
 
     /**
      * Register any authentication / authorization services.
+     *  Define GATES
      *
      * @return void
      */
@@ -25,6 +26,21 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
-        //
+
+        //Define your GATE Here  - can call it anything you like ie. manage-users
+        Gate::define('manage-users', function ($user){
+            return $user->hasAnyRoles(['admin', 'viewOnlyAdmin']);
+        });
+
+        //Define your GATE Here  - can call it anything you like ie. edit-users
+        Gate::define('edit-users', function ($user){
+            return $user->hasRole('admin');
+        });
+
+        //Define your GATE Here  - can call it anything you like ie. delete-users
+        Gate::define('delete-users', function ($user){
+            return $user->hasRole('admin');
+        });
     }
+
 }
