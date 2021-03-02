@@ -1,0 +1,29 @@
+/*
+*
+* CSS for Upload
+*
+ */
+
+
+body {
+    line-height: 1;
+    height: 100%;
+    display: table;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    margin-top: 100px;
+}
+
+footer:before, footer:after {
+    content: " ";
+    display: table;
+}
+
+footer:after {
+    clear: both;
+}
