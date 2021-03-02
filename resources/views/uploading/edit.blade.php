@@ -13,7 +13,7 @@
         <div class="col-md-9">
             <div class="card">
                 <div class="card-header">
-                    <h4>Dashboard - movieStage2 Edit</h4>
+                    <h4>Dashboard - movieStage2 Edit Movie Package</h4>
                 </div>
 
                 <div class="card-body">
@@ -136,7 +136,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="tickets" class="col-md-3 col-form-label text-md-right">{{ __('Review Movie') }}</label>
+                            <label for="tickets" class="col-md-3 col-form-label text-md-right">{{ __('Review movie') }}</label>
                             <div class="col-md-6">
                                 <select id="rating" name="rating">
                                     <option value="{{$findInfo->rating}}" selected>{{$findInfo->rating}}</option>
