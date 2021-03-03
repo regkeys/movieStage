@@ -47,7 +47,7 @@ class UploadsController extends Controller
 
 
         //Get Info
-        $dataUploaded = Upload::orderBy('name', 'asc')->paginate(30);                        //Pagination based on varialbes in database - also add variable + links() function to page = {{$dataUploaded->links()}}  - paginate will not work witn all() function
+        $dataUploaded = Upload::orderBy('name', 'asc')->paginate(100);                        //Pagination based on varialbes in database - also add variable + links() function to page = {{$dataUploaded->links()}}  - paginate will not work witn all() function
         //load view
         return view('uploading.index')->with('dataUploaded', $dataUploaded);           //Note reference to variable 2x's
 
