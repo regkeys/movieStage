@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <h1>movieStage2</h1>
+            <h1>BlockCity</h1>
             <div class="card">
                 <div class="card-header">{{ __('Login') }}</div>
 

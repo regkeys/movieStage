@@ -62,12 +62,12 @@
                                 @endforeach
                             @else
                                 <p>
-                                    Thank you for joining movieStage2 Club. We would like to give you an opportunity to create your own movie list and <a href="/upload"> browse other movies<a> added by club members.
+                                    Thank you for joining our BlockCity movie club. We would like to give you an opportunity to create your own movie list and <a href="/upload"> browse other movies<a> added by club members.
                                     <br>Please click "Create your move list" below to start.  See our <a href="#">Privacy Policy</a>
                                 </p>
 
 
-                                <H4>*** Please create your own local movies: <a href="/upload/create" class="btn btn-primary">Create your own local movies </a></H4>
+                                <H4>*** Please create your own my movies: <a href="/upload/create" class="btn btn-primary">Create your own my movies </a></H4>
                             @endif
                         </div>
                     </div>

@@ -20,7 +20,6 @@
                 <div class="card-body">
                     <form method="POST" action="{{ route('upload.store') }}" enctype="multipart/form-data">
                         @csrf
-
                         <div class="form-group row">
                             <!-- hidden field for poster folder -->
                             <div class="col-md-6">

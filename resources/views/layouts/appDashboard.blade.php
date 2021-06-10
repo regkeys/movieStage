@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'movieStage2') }}</title>
+    <title>{{ config('app.name', 'BlockCity') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -30,7 +30,7 @@
             <div class="container col-md-12">
 
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'movieStage2') }}
+                    {{ config('app.name', 'BlockCity') }}
                 </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -96,7 +96,7 @@
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="copyright text-center">
                             <p>
-                                &copy; Copyright <strong>movieStage2</strong>. All Rights Reserved
+                                &copy; Copyright <strong>BlockCity</strong>. All Rights Reserved
                             </p>
                         </div>
                     </div>

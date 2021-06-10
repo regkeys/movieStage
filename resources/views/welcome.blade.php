@@ -37,7 +37,7 @@
 
 <body class="antialiased">
     <div class="t2">
-        <h1 style="color: #007bff">movieStage2   -  MOVIE Theater CLUB</h1>
+        <h1 style="color: #007bff">BlockCity   -  MOVIE Theater CLUB</h1>
 
         @if (Route::has('login'))
             @auth
@@ -112,7 +112,7 @@
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="copyright text-center">
                             <p>
-                                &copy; Copyright <strong>movieStage</strong>. All Rights Reserved
+                                &copy; Copyright <strong>BlockCity</strong>. All Rights Reserved
                             </p>
                         </div>
                     </div>
