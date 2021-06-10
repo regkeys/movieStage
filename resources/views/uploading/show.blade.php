@@ -21,9 +21,9 @@
                             <div class="col-md-4 spacer2">
                                   <br>
                                 @if($findInfo->poster == '')
-                                    <img src="/img/comingsoon1.jpg" />
+                                    <img src="/img/comingsoon1.jpg" class="img-fluid" />
                                 @else
-                                    <img src="/storage/poster-files/{{$findInfo->name}}/{{$findInfo->poster}}" />
+                                    <img src="/storage/poster-files/{{$findInfo->name}}/{{$findInfo->poster}}" class="img-fluid" />
                                 @endif
                             </div>
 

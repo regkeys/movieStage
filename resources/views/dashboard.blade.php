@@ -35,9 +35,9 @@
                                     <div class="">
                                         <div class="col-md-4 spacer2">
                                         @if($dataUp->poster == '')
-                                                <a href="/upload/{{$dataUp->id}}"><img src="/img/comingsoon1.jpg" /></a>
+                                                <a href="/upload/{{$dataUp->id}}"><img src="/img/comingsoon1.jpg" class="img-fluid" /></a>
                                         @else
-                                                <a href="/upload/{{$dataUp->id}}"><img src="/storage/poster-files/{{$dataUp->name}}/{{$dataUp->poster}}" class="top-spacer" /></a>
+                                                <a href="/upload/{{$dataUp->id}}"><img src="/storage/poster-files/{{$dataUp->name}}/{{$dataUp->poster}}" class="top-spacer img-fluid" /></a>
                                         @endif
 
                                         <p><h4>Title: {{$dataUp->title}}</h4></p>

@@ -75,9 +75,9 @@
                                     <td>
                                         <h5>Title: <a href="/upload/{{$dataUp->id}}">{{$dataUp->title}}</a></h5>
                                         @if($dataUp->poster == '')
-                                            <a href="/upload/{{$dataUp->id}}"><img class="movie-s1" src="/img/comingsoon1.jpg" /></a>
+                                            <a href="/upload/{{$dataUp->id}}"><img class="movie-s1 img-fluid" src="/img/comingsoon1.jpg" /></a>
                                         @else
-                                            <a href="/upload/{{$dataUp->id}}"><img class="movie-s1" src="/storage/poster-files/{{$dataUp->name}}/{{$dataUp->poster}}" /></a>
+                                            <a href="/upload/{{$dataUp->id}}"><img class="movie-s1 img-fluid" src="/storage/poster-files/{{$dataUp->name}}/{{$dataUp->poster}}" /></a>
                                         @endif
                                        <br>
 
