@@ -104,7 +104,7 @@
 
 
 
-<!-- Start Footer bottom Area ******************************************************************************-->
+<!-- Start Footer bottom Area ************************************************************************-->
     <footer>
         <div class="footer-area-bottom">
             <div class="container">
